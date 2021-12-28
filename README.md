@@ -36,23 +36,23 @@ Gray channel의 chest image를 폐렴질병(pneumonia)을 분류하는 테스크
 
 ## 03. EDA
 ### 훈련데이터셋 VS 테스트테이터셋
-<img src="/static/EDA_train_test_dataset.png" width="30%" height="30%">
+<img src="/static/EDA_train_test_dataset.png" width="40%" height="40%">
 
 ### 정상데이터셋 VS 폐렴테이터셋
-<img src="/static/EDA_normal_pneumonia_dataset.png" width="30%" height="30%">
+<img src="/static/EDA_normal_pneumonia_dataset.png" width="40%" height="40%">
 
 ### 정상인 CT image 
-<img src="/static/Normal CT image.png" width="30%" height="30%">
+<img src="/static/Normal CT image.png" width="40%" height="40%">
 
 ### 폐렴 CT image 
-<img src="/static/Pneumonia CT image.png" width="30%" height="30%">
+<img src="/static/Pneumonia CT image.png" width="40%" height="40%">
 
 
 ### 정상인 CT image 히스토그램
-<img src="/static/Normal CT image hist.png" width="30%" height="30%">
+<img src="/static/Normal CT image hist.png" width="50%" height="50%">
 
 ### 폐렴 CT image 히스토그램
-<img src="/static/Pneumonia CT image hist.png" width="30%" height="30%">
+<img src="/static/Pneumonia CT image hist.png"width="50%" height="50%">
 
 * 이미지 히스토그램을 통해 정상인의 경우 고르게 분포 된 반면에 폐렴환자의 이미지는 100~200 밝기를 가지는 pixel이 모여 있는 것을 알 수 있다
 
@@ -61,7 +61,7 @@ Gray channel의 chest image를 폐렴질병(pneumonia)을 분류하는 테스크
 ### 훈련 데이터 나누기
 
 * 훈련 데이터를 TRAIN:VAL = 7:3 나누어 validation data 생성
-<img src="/static/data_split.png" width="30%" height="30%">
+<img src="/static/data_split.png" width="40%" height="40%">
 
 ### 훈련 모델 및 훈련
 * vgg16 기반의 이진분류기 적용
