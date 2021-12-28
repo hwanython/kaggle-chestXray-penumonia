@@ -52,7 +52,7 @@ Gray channel의 chest image를 폐렴질병(pneumonia)을 분류하는 테스크
 <img src="/static/Normal CT image hist.png" width="50%" height="50%">
 
 ### 폐렴 CT image 히스토그램
-<img src="/static/Pneumonia CT image hist.png"width="50%" height="50%">
+<img src="/static/Pneumonia CT image hist.png" width="50%" height="50%">
 
 * 이미지 히스토그램을 통해 정상인의 경우 고르게 분포 된 반면에 폐렴환자의 이미지는 100~200 밝기를 가지는 pixel이 모여 있는 것을 알 수 있다
 
