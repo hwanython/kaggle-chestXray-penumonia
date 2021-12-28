@@ -35,5 +35,22 @@ Gray channel의 chest image를 폐렴질병(pneumonia)을 분류하는 테스크
 
 
 ## 03. EDA
-### 데이터 셋 
+### 훈련데이터셋 VS 테스트테이터셋
+<img src="/static/EDA_train_test_dataset.png">
 
+### 정상데이터셋 VS 폐렴테이터셋
+<img src="/static/EDA_normal_pneumonia_dataset.png">
+
+### 정상인 CT image 
+<img src="/static/Normal CT image.png">
+
+### 폐렴 CT image 
+<img src="/static/Pneumonia CT image.png">
+
+
+### 정상인 CT image 히스토그램
+<img src="/static/Normal CT image hist.png">
+
+### 폐렴 CT image 히스토그램
+<img src="/static/Pneumonia CT image hist.png">
+이미지 히스토그램을 통해 정상인의 경우 고르게 분포 된 반면에 폐렴환자의 이미지는 100~200 밝기를 가지는 pixel이 모여 있는 것을 알 수 
