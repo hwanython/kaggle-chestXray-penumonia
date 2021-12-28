@@ -61,7 +61,7 @@ Gray channel의 chest image를 폐렴질병(pneumonia)을 분류하는 테스크
 ### 훈련 데이터 나누기
 
 * 훈련 데이터를 TRAIN:VAL = 7:3 나누어 validation data 생성
-<img src="/static/EDA_normal_pneumonia_dataset.png" width="30%" height="30%">
+<img src="/static/data_split.png" width="30%" height="30%">
 
 ### 훈련 모델 및 훈련
 * vgg16 기반의 이진분류기 적용
@@ -69,6 +69,15 @@ Gray channel의 chest image를 폐렴질병(pneumonia)을 분류하는 테스크
 
 ## 05. 모델 평가
 ### 이미지 prediction plot 
+* 테스트 데이터 624장
 * [이미지 prediction plot](https://github.com/hwanython/kaggle-chestXray-penumonia/blob/main/05_predict_test_data.ipynb)
 
-### Confusion matrix 및 평가 지표
+### 테스트 데이터에 대한 Confusion matrix 및 평가 지표
+* [Confusion matrix](https://github.com/hwanython/kaggle-chestXray-penumonia/blob/main/05_predict_test_data.ipynb)
+<img src="/static/Confusion_matrix.png" width="50%" height="50%">
+
+* 정확도: 89.1%
+* 정밀도: 93.7%
+* 재현율: 76.1%
+* F1 점수: 0.84
+
