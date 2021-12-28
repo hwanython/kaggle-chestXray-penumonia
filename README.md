@@ -34,4 +34,6 @@ Gray channel의 chest image를 폐렴질병(pneumonia)을 분류하는 테스크
 
 
 
-## 03. 
+## 03. EDA
+### 데이터 셋 
+
